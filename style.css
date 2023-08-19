@@ -1,0 +1,550 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clr{
+    clear: both;
+}
+body{
+    font-family: "Alegreya Sans";
+    behavior: smooth;
+}
+
+/* start home */
+.Home{
+    background-image: url(images/drew-coffman-1872.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    overflow: auto;
+    margin-bottom: 80px !important;
+}
+.container{
+    width: 100%;
+    position: fixed;
+    transition: 0.6s;
+    -webkit-transition: 0.6s;
+    -moz-transition: 0.6s;
+    -ms-transition: 0.6s;
+    -o-transition: 0.6s;
+}
+.nav{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    padding-top: 0;
+    margin-top: 10px;
+}
+.white{
+    background-color: white;
+}
+.linksOnScroll{
+    color: #111111 !important;
+}
+
+.nav .logoImage{
+    width: 15%;
+    float: left;
+    cursor: pointer;
+    padding-bottom: 10px;
+}
+
+.nav .logoImage img{
+    width: 100%;
+}
+
+.nav .navList{
+    float: right;
+    margin-top: 5px;
+}
+
+.nav .navList ul{
+    list-style: none;
+
+}
+
+.nav .navList ul li{
+    float: left;
+    padding: 15px;
+
+}
+.nav .navList ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.nav .navList ul li a:hover{
+    color: #ae9768;
+}
+.content{
+    margin-top: 70px;
+}
+.Home p{
+    margin-bottom: 25px;
+    color: #FFFFFFEB;
+    letter-spacing: 1;
+}
+
+.Home .welcome{
+    display: inline-block;
+    margin-top: 150px;
+    font-size: 20px;
+}
+
+.Home .paragraph{
+    font-size: 20px;
+    line-height: 2;
+}
+
+.Home h1{
+    margin-bottom: 20px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    font-size:80px;
+}
+
+.Home .learnmoreBtn{
+  padding: 15px 28px;
+  margin: 0 12px 0 0 ;
+  background-color: #8e7754;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: 1s;
+  cursor: pointer;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.Home .learnmoreBtn:hover, .Home .contactUsBtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.Home .contactUsBtn{
+    padding: 13px 28px;
+    border: none;
+    background: none;
+    border: 2px white solid;
+    color: white;
+    border-radius: 5px;
+    font-weight: 700;
+    transition: 1s;
+    cursor: pointer;
+    transition: 0.5s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+/* end home */
+
+
+
+/* start about */
+.about{
+    width: 80%;
+    margin: auto;
+    /* margin-top: 50px; */
+    margin-bottom: 50px;
+    padding-top: 80px;
+}
+.about .about-Image{
+
+    width: 50%;
+    float: left;
+}
+
+.about .about-Image img{
+    width: 100%;
+    padding: 0 10px;
+}
+
+.about .about-content{
+    width: 40%;
+    float: right;
+    margin-top: 1em;
+    margin-right: 20px;
+}
+
+.about .about-content h2{
+    font-size: 35px;
+    color: #303030;
+    margin-bottom: 20px;
+    font-family: "Alegreya";
+    font-weight: 100;
+
+}
+
+.about .about-content p {
+    color: #686868;
+    font-size: 18px;
+    margin: 30px 0;
+    line-height: 2em;
+
+}
+
+.about-list ul{
+    list-style: none;
+    margin-left: -12px;
+
+}
+
+
+.about ul li {
+    font-size: 18px;
+    color: #686868;
+    padding: 10px;
+}
+
+.about ul li i{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 18px;
+    margin-right: 13px;
+    color: #8e7754;
+    border: 1px solid #aaa;
+    border-radius: 50%;
+    vertical-align: middle;
+    
+}
+
+/* end about */
+
+
+/* start location */
+.location{
+    background-color: #f8f8f8;
+}
+.location .container{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 60px;
+}
+
+.location .locationContent{
+width: 50%;
+float: left;
+margin-top: 190px;
+}
+
+.location .locationContent h2{
+    font-family: "Alegreya";
+    font-size: 35px;
+    font-weight: 100;
+    margin-bottom: 30px;
+}
+
+.location .locationContent p{
+    line-height: 1.86em;
+    margin-bottom: 20px;
+    color: #686868;
+    margin-right: 50px;
+    font-size: 18px;
+
+
+}
+
+
+.location .locationImage{
+    width: 50%;
+    float: left;
+    margin-top: 90px;
+}
+.location .locationImage img{
+    width: 100%;
+}
+/* end location */
+
+
+
+/* start products */
+
+.products{
+    text-align: center;
+    margin-bottom: 80px;
+    padding-top: 10px;
+}
+
+.parent{
+    width: 80%;
+    margin: auto;
+}
+
+.products h2{
+    margin-top: 80px;
+    margin-bottom: 25px;
+    font-family: "Alegreya";
+    font-weight: 100;
+    font-size: 35px;
+}
+
+.products .learnMore{
+    margin-bottom: 50px;
+    color: #686868;
+    font-size: 18px;
+
+}
+
+.products .parent .product{
+width: 30.3333%;
+float: left;
+margin-left: 35px;
+}
+
+.products .parent .product h3{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-family: "Alegreya";
+    font-weight: 100;
+    font-size: 25px;
+
+}
+
+.products .parent .product p{
+    color: #686868;
+    line-height: 2;
+
+}
+
+.products .product img{
+width: 100%;
+}
+
+/* end products */
+
+/* start contact */
+.contactInfo{
+    background-color: #f8f8f8;
+}
+.contactInfoContainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+
+.contactInfo .contactInfoContent{
+    width: 50%;
+    float: left;
+    padding: 120px 0;
+}
+
+.contactInfoMap{
+    width: 50%;
+    float: right;
+    padding: 120px 0;
+}
+
+.contactInfo .contactInfoContent h2{
+    font-family: "Alegreya";
+    font-weight: 100;
+    font-size: 35px;
+    margin-bottom: 20px;
+    color: #303030;
+}
+
+.contactInfo .contactInfoContent p{
+margin-bottom: 30px;
+font-size: 18px;
+color: #686868;
+line-height: 2;
+
+}
+
+.contactInfo .contactInfoContent h5{
+    font-family: "Alegreya";
+    font-weight: 100;
+    margin-bottom: 20px;
+    font-size: 17px;
+    color: #686868;
+}
+
+
+.contactInfo .contactInfoContent ul{
+    list-style: none;
+    margin-left: -12px;
+}
+
+
+.contactInfo .contactInfoContent ul li {
+    font-size: 18px;
+    color: #686868;
+    padding: 10px;
+}
+
+
+.contactInfo .contactInfoContent ul li i{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 16px;
+    margin-right: 13px;
+    color: white;
+    background-color: #8e7754;
+    border-radius: 50%;
+    vertical-align: middle;
+}
+/* end contact */
+
+
+
+/* start contact */
+.aboutUs{
+    background-color: #403d38;
+    color: white;
+}
+
+.aboutUsContainer{
+    padding: 50px 0;
+    width: 85%;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+.aboutUs .aboutUsContainer::after{
+        content: "";
+        background-image: url('./images/contact-details-map.png');
+        background-position: right;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0px;
+        right: 50px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.30;
+        z-index: -1;
+}
+
+.aboutUs .aboutUsContainer .member{
+width: 25%;
+float: left;
+}
+
+
+.aboutUs .member h5{
+    font-family: "Alegreya";
+    font-weight: 100;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.aboutUs .member ul li, .aboutUs .member p{
+    padding: 2px 0;
+    color: #969696;
+    font-size: 14px;
+}
+.aboutUs .member p{
+    padding-right: 50px;
+    line-height: 1.7rem;
+}
+
+.aboutUs .member ul li i{
+margin-right: 7px;
+}
+
+.aboutUs .member ul{
+list-style: none;
+}
+
+.aboutUs .aboutUsContainer .member ul li a{
+    color: #969696;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.aboutUs .aboutUsContainer .member ul li a:hover{
+    color: white;
+}
+.aboutUs .aboutUsContainer .member ul li span{
+    display: inline-block;
+    margin-left: 22px;
+    margin-top: 20px;
+}
+
+.aboutUs .member .hr{
+    width: 85%;
+    height: 1px;
+    margin-top: 7px;
+    margin-bottom: 15px;
+    background-color: rgba(255,255,255,0.05);;
+}
+/* end contact */
+
+
+/* start footer */
+.footer{
+    background-color: #353330;
+    color: #8c8a86;
+    padding: 50px 0;
+    text-align: center;
+   
+}
+
+
+.footer i{
+    width: 44px;
+    height: 44px;
+    padding: 15px;
+    background-color: #484540;
+    border-radius: 50%;
+    margin-right: 6px;
+    color: #8c8a86;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+.footer i:hover{
+    background-color: white;
+    color: #484540;
+}
+.footer p{
+    font-size: 16px;
+    font-family: "Alegreya";
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+/* end footer */
+
+
+
+#scrollTopbtn{
+    display: none;
+   position: fixed;
+   bottom: 20px;
+   right: 30px;
+   padding: 10px 12px;
+   z-index: 99;
+   border: none;
+   outline: none;
+   background-color: rgba(0,0,0,0.4);
+   color: white;
+   cursor: pointer;
+   font-size: 16px;
+   border-radius:50% ;
+   -webkit-border-radius:50% ;
+   -moz-border-radius:50% ;
+   -ms-border-radius:50% ;
+   -o-border-radius:50% ;
+}
+#scrollTopbtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
